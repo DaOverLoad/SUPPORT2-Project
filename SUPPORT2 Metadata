@@ -1,0 +1,26 @@
+Metadata of the cleaned DF
+
+- ID: Patients ID number
+- age: Patient age
+- death: If the patients have died (0 = alive, 1 = died)
+- sex: Patient gender (male/female)
+- hospdead: if the patient  died in the hospital (0 = outside of hospital or alive, 1 = died in the hospital)
+- slos: days from Study Entry to Discharge 
+- d.time: days of follow-up 
+- dzgroup: Patient diagnoses categorised (ARF/MOSF w/Sepsis, CHF, COPD, Cirrhosis, Colon Cancer, Coma, Lung Cancer, MOSF w/Malig.)
+- num.co: Patients with one or more diagnoses 
+- income: Yearly income of the patient (£11-£25k, £25-£50k, >£50k, under £11k, undisclosed)
+- charges: Hospital charges (in dollars)
+- race: Patient ethnicity
+- surv2m: 2 month survival estimation ( 0 - 1, close to 1 means high survival rate)
+- surv2m: 6 month survival estimation ( 0 - 1, close to 1 means high survival rate)
+- diabetes: If the patients showed signs of diabetes (0 = no diabetes, 1 = diabetic)
+- ca: If the patient has cancer (yes), spread out (metastatic), or if they are healthy (no)
+- dnr: DNR or Do Not Resuscitate, patient orders a DNR order or not. (dnr after single admission (sadm), dnr before sadm(), no dnr)
+- meanbp: measure the arterial blood pressure to check if enough blood is supplied to vital organs (70 - 100 normal meanbp)
+- wblc: White blood cell count in the thousands. low white blood cell count (less than 4,000), high white blood cell count (above 11,000 )
+- hrt: The patient's heart rate was measured on day 3 (60 - 100 normal resting rate)
+- temp: Patient recorded temperature on day 3 (average temperature 36.1 - 37.2)
+- crea: Measuring the creatine levels in the blood on day 3. male average: 0.7 - 1.2, female average: 0.5 - 1
+- sod: Measure the sodium concentration in the blood on day 3. The normal range is between 135-147 
+- adlsc: Patient daily activity score, filled by patients and surrogates (0 - 10). The higher the value the better the survival rate
